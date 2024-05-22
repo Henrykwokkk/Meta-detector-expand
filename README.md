@@ -26,7 +26,7 @@ The configuration of TPL detection refers to [LibScan](https://github.com/wyf295
 
 Download LibScan repository and unzip LibScan folder.
 
-The vulnerable TPL dataset refers to LibScan and the [empirical study](https://sites.google.com/view/libdetect). It includes general TPL and vulnerable TPL dataset and needs to be unzipped. Please download the dataset from [Zenodo](https://zenodo.org/records/11242864)
+The vulnerable TPL dataset refers to LibScan and the [empirical study](https://sites.google.com/view/libdetect). It includes general TPL and vulnerable TPL dataset and needs to be unzipped. Please download the dataset from [Zenodo](https://zenodo.org/records/11242864).
 
 ## Usage
 command line 
