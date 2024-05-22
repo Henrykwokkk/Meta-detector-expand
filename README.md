@@ -18,16 +18,15 @@ sdk: 'path_to_android_sdk'
 ```
 The configuration of IAP vulnerability and biometric data collection usage detection refers to [PaymentScope](https://github.com/OSUSecLab/PaymentScope).
 
-Download PaymentScope repository in and unzip PaymentScope folder.
+Download PaymentScope repository and unzip PaymentScope folder.
 
 The file `PaymentScope\src\ghidra_scripts` needs to be moved to `~/ghidra_scripts` for running which is required by Ghidra.
 
 The configuration of TPL detection refers to [LibScan](https://github.com/wyf295/LibScan)
 
-Download LibScan repository in and unzip LibScan folder.
+Download LibScan repository and unzip LibScan folder.
 
-The vulnerable TPL dataset refers to LibScan and the [empirical study](https://sites.google.com/view/libdetect). It includes general TPL and vulnerable TPL dataset and needs to be unzipped. 
-
+The vulnerable TPL dataset refers to LibScan and the [empirical study](https://sites.google.com/view/libdetect). It includes general TPL and vulnerable TPL dataset and needs to be unzipped. Please download the dataset from [Zenodo](https://zenodo.org/records/11242864)
 
 ## Usage
 command line 
