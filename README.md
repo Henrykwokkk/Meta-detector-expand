@@ -54,3 +54,15 @@ The IAP vulnerability analysis and inconsistency biometric data collection funct
 ```
 The process results are in `PolicyAnalysis/network-to-policy_consistency/ext/output`. Transfer the files in this path to JSON format and move the files to `results/policy`.
 
+## Review Analysis
+1. Use the following command line to collect user reviews.
+```text
+ $ python ./ReivewAnalysis/request_review.py
+```
+The reviews are in `ReviewAnalysis/900_apps_review`.
+
+2. Use the following command line to analyze collected reviews.
+```text
+ $ python ./ReivewAnalysis/review_analysis.py
+```
+The process results are in `ReviewAnalysis/900_apps_review_privacy`.
